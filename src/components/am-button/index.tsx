@@ -1,5 +1,5 @@
 import React, {PropsWithChildren} from "react"
-import Button, {APPEARANCES, ButtonProps, SIZES} from "./button";
+import Button, {ButtonProps} from "./button";
 
 const TestButton = (props:PropsWithChildren<ButtonProps>) => (<Button  data-testid={"button"} {...props}/>)
 

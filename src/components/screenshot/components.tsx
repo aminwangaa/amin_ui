@@ -1,7 +1,4 @@
-import React from "react"
 import styled from "styled-components";
-import { ScreenshotProps } from "./index"
-
 
 export const ScreenshotBox = styled.div`
     position: relative;

@@ -1,6 +1,5 @@
-import React from "react"
 import styled from "styled-components";
-import { ButtonProps, SIZE, btnPadding } from "./button";
+import { ButtonProps, SIZE } from "./button";
 import { paddingSize, color } from "../shared/styles"
 
 const StyledButton = styled.button<ButtonProps>`

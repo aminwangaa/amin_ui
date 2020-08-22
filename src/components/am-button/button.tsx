@@ -1,5 +1,4 @@
 import React, {
-    ReactNode,
     AnchorHTMLAttributes,
     ButtonHTMLAttributes,
     PropsWithChildren,
@@ -8,7 +7,6 @@ import React, {
 from "react"
 import styled from "styled-components";
 import StyledButton from "./styleButton"
-import StyledIcon from "./styleIcon";
 
 export type AppearancesTypes = keyof typeof APPEARANCES;
 
@@ -67,14 +65,6 @@ const Text = styled.span`
 	display: inline-block;
 	height: 100%;
 	width: 100%;
-`;
-
-const Loading = styled.span`
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	opacity: 0;
 `;
 
 export interface CustormButtonProps {

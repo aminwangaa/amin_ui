@@ -43,6 +43,10 @@ export const Screenshot:React.FC<ScreenshotProps> = (props: ScreenshotProps) => 
     const imgBoxRef: any = useRef()
     const canvasOutRef: any = useRef()
 
+    useEffect(() => {
+        console.log("dataURL")
+    }, [dataURL])
+
     const setTargetCanvas = () => {
         const canvas: any = canvasRef.current
         const ctx: any = canvas.getContext("2d")

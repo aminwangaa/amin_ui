@@ -9,7 +9,7 @@ export default {
 };
 
 export const KnobsSreenshot = () => {
-    const imgChange = (val) => {
+    const imgChange = (val: string) => {
         // console.log(val)
     }
 

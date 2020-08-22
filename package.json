@@ -1,6 +1,6 @@
 {
-  "name": "@aminwangaa/amin-ui",
-  "repository": "https://github.com/aminwangaa/amin-ui",
+  "name": "@aminwangaa/amin_ui",
+  "repository": "https://github.com/aminwangaa/amin_ui",
   "version": "0.1.11",
   "private": false,
   "scripts": {
