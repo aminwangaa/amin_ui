@@ -1,0 +1,25 @@
+import {Meta, Story, Preview, Props} from '@storybook/addon-docs/blocks';
+import {Screenshot} from './index'
+
+<Meta title="Amin / Screenshot" component={Screenshot} />
+
+# AmScreenshot
+
+<Preview>
+  <Story name="Demo">
+        <Screenshot onChange={dataUrl => dataUrl} />
+  </Story>
+</Preview>
+
+> 简易版本canvas头像截取组件，通过onChange方法获取截图后的图片信息
+>
+> 在canvas模式下请勿缩放， 会造成计算错误
+>
+> 鼠标拖动四个角可以进行截取区域的调整
+>
+> 鼠标拖动截取区域的中心位置可调整截取区域的位置
+
+
+### 属性详情
+
+<Props of={Screenshot} />

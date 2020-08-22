@@ -1,0 +1,65 @@
+import { Meta, Story, Props ,Preview } from '@storybook/addon-docs/blocks';
+import  { DocsButton as Button }  from './index';
+import MarginBox from "../margin-box";
+
+<Meta title='Amin / Button' component={Button} />
+
+<br/>
+
+# Button 按钮
+<br/>
+
+### 按钮示例
+
+<Preview >
+  <Story name='default'>
+    <MarginBox>
+      <Button appearance='default' size="small">default</Button>
+      <Button appearance='primary' size="small">primary</Button>
+      <Button appearance='primary' size="small" round={true}>primary</Button>
+      <Button disabled={true} size="small" round={true}>disabled</Button>
+    </MarginBox>
+    <MarginBox>
+      <Button appearance='default'>default</Button>
+      <Button appearance='danger'>primary</Button>
+      <Button appearance='danger' round={true}>primary</Button>
+      <Button disabled={true} round={true}>disabled</Button>
+    </MarginBox>
+    <MarginBox>
+      <Button appearance='default' size="large">default</Button>
+      <Button appearance='warning' size="large">primary</Button>
+      <Button appearance='warning' size="large" round={true}>primary</Button>
+      <Button disabled={true} size="large" round={true}>disabled</Button>
+    </MarginBox>
+  </Story>
+</Preview>
+
+### 文字(链接)按钮示例
+
+<Preview >
+  <Story name='text'>
+    <MarginBox>
+      <Button isLink={true} href="http://www.baidu.com" textLine={true} newPage={true}>有下划线</Button>
+      <Button isLink={true} href="http://www.baidu.com">当前页面</Button>
+      <Button isLink={true} newPage={true} href="http://www.baidu.com">跳新页面</Button>
+      <Button isLink={true} disabled={true}>默认链接</Button>
+    </MarginBox>
+  </Story>
+</Preview>
+
+### 图标按钮
+
+<Preview >
+  <Story name='icon'>
+    <MarginBox>
+      <Button circle={true}>
+        <span className="iconfont amin-shouqi"></span>
+        <span className="iconfont amin-shouqi"></span>
+      </Button>
+    </MarginBox>
+  </Story>
+</Preview>
+
+### 属性详情
+
+<Props of={Button} />

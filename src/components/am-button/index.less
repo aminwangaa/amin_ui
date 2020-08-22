@@ -1,0 +1,101 @@
+@import "../shared/color";
+
+.amBtn {
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 16px;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.amDefaultBtn {
+  color: @black;
+  background: @lightest;
+  border: 1px solid @default;
+
+  &:active {
+    opacity: 1;
+    color: @primary;
+    border: 1px solid @primary;
+  }
+}
+
+.amPrimaryBtn {
+  color: @lightest;
+  background: @primary;
+  border: 1px solid @mediumlight;
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.amDangerBtn {
+  color: @lightest;
+  background: @danger;
+  border: 1px solid @danger;
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.amWarningBtn {
+  color: @lightest;
+  background: @warning;
+  border: 1px solid @warning;
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.amDashedBtn {
+  color: @black;
+  background: @lightest;
+  border: 1px dashed @default;
+
+  &:active {
+    opacity: 1;
+    color: @primary;
+    border: 1px dashed @primary;
+  }
+}
+
+.amDisabledBtn {
+  color: rgba(0,0,0,.25);
+  background: @lighter;
+  border-color: @default;
+  cursor: not-allowed;
+
+  &:hover {
+    opacity: 1;
+    border-color: @default;
+  }
+
+  &:active {
+    opacity: 1;
+    color: rgba(0,0,0,.25);
+  }
+}
+
+.amSmallBtn {
+  font-size: 12px;
+}
+
+.amMiddleBtn {
+  font-size: 14px;
+}
+
+.amLargeBtn {
+  font-size: 16px;
+}
+
+.amRound {
+  border-radius: 40px;
+}
+
