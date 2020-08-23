@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59eeb5e4-b4d4-4fd7-99d1-c2135f7c7dcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/avatar/__tests__/__snapshots__/index.test.tsx.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/styles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/styles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,6 +60,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
+          <entry key="js" value="2" />
           <entry key="json" value="5" />
           <entry key="md" value="1" />
           <entry key="snap" value="1" />
@@ -76,6 +71,7 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="2" />
           <entry key="Jest Snapshot" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="TypeScript JSX" value="20" />
@@ -89,13 +85,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="18" />
+          <entry key="js" value="17" />
+          <entry key="json" value="24" />
           <entry key="tsx" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="18" />
+          <entry key="JSON" value="24" />
+          <entry key="JavaScript" value="17" />
           <entry key="TypeScript JSX" value="117" />
         </counts>
       </usages-collector>
@@ -106,8 +104,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+            <state relative-caret-position="336">
+              <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.storybook/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.storybook/preview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/tsconfig.build.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -133,6 +148,7 @@
       <find>amin-ui</find>
       <find>ReactNode</find>
       <find>css</find>
+      <find>zf-np</find>
     </findStrings>
     <replaceStrings>
       <replace>amin_ui</replace>
@@ -159,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/components/radio/index.stories.tsx" />
         <option value="$PROJECT_DIR$/src/components/radio/__tests__/index.test.tsx" />
         <option value="$PROJECT_DIR$/tsconfig.build.json" />
+        <option value="$PROJECT_DIR$/.storybook/preview.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -197,6 +214,16 @@
             <path>
               <item name="amin_ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="amin_ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amin_ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amin_ui" type="462c0819:PsiDirectoryNode" />
+              <item name=".storybook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amin_ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amin_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,12 +270,12 @@
       <updated>1598113573533</updated>
       <workItem from="1598113574677" duration="321000" />
       <workItem from="1598114545847" duration="235000" />
-      <workItem from="1598154067493" duration="1924000" />
+      <workItem from="1598154067493" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2480000" />
+    <option name="totallyTimeSpent" value="2837000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="470" y="121" width="1313" height="936" extended-state="0" />
@@ -487,14 +514,27 @@
     <entry file="file://$PROJECT_DIR$/tsconfig.build.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/preview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <state relative-caret-position="336">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
         </state>
       </provider>
     </entry>
