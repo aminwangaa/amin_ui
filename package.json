@@ -1,7 +1,7 @@
 {
   "name": "@aminwangaa/amin_ui",
   "repository": "https://github.com/aminwangaa/amin_ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "start": "node scripts/start.js",
@@ -134,10 +134,7 @@
     "microbundle": "^0.12.3",
     "polished": "^3.6.5"
   },
-  "dependencies": {
-
-
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -161,9 +158,9 @@
     "cleanup": false
   },
   "np": {
-  "tests": false,
-  "yolo": false,
-  "yarn": false,
-  "cleanup": false
+    "tests": false,
+    "yolo": false,
+    "yarn": false,
+    "cleanup": false
   }
 }
