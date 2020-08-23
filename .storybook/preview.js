@@ -26,7 +26,8 @@ addDecorator((story) => (
         <GlobalStyle />
         {story()}
     </>
-));
+    )
+);
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },
