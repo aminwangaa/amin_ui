@@ -134,6 +134,7 @@ export const Button = (props: PropsWithChildren<ButtonProps>) => {
 
 	return (
 		<StyledButton
+			data-testid={"button-test"}
 			as={btnType}
 			{...props}
 			{...isDisableLink}

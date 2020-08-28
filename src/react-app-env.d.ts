@@ -66,3 +66,4 @@ declare module '*.module.sass' {
 }
 
 declare module 'prismjs/prism'
+declare module 'lodash'

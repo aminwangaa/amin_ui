@@ -42,7 +42,6 @@ const StyledButton = styled.button<ButtonProps>`
             color: ${color.lightest};
             border: 1px solid ${color[props.appearance]};
         }
-       
          `
     }
 

@@ -3035,6 +3035,11 @@
     "@types/interpret" "*"
     "@types/node" "*"
 
+"@types/lodash@^4.14.160":
+  version "4.14.160"
+  resolved "https://registry.npm.taobao.org/@types/lodash/download/@types/lodash-4.14.160.tgz?cache=0&sync_timestamp=1598288460918&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Flodash%2Fdownload%2F%40types%2Flodash-4.14.160.tgz#2f1bba6500bc3cb9a732c6d66a083378fb0b0b29"
+  integrity sha1-Lxu6ZQC8PLmnMsbWaggzePsLCyk=
+
 "@types/markdown-to-jsx@^6.11.0":
   version "6.11.1"
   resolved "https://registry.npm.taobao.org/@types/markdown-to-jsx/download/@types/markdown-to-jsx-6.11.1.tgz#4d9464aa76337d798b874dd3f2d6b4c86ddd98ad"
@@ -10584,9 +10589,9 @@ lodash.zip@^4.2.0:
   resolved "https://registry.npm.taobao.org/lodash.zip/download/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
   integrity sha1-7GZi5IlkCO1KtsVCo5kLcswIACA=
 
-"lodash@>=3.5 <5", lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.5:
+"lodash@>=3.5 <5", lodash@^4.0.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.5:
   version "4.17.20"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1597336053864&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
 log-driver@^1.2.7:
@@ -17007,7 +17012,7 @@ yargs@^13.3.0, yargs@^13.3.2:
     y18n "^4.0.0"
     yargs-parser "^13.1.2"
 
-zf-np@^6.4.1:
+zf-np@^6.4.0:
   version "6.4.1"
   resolved "https://registry.npm.taobao.org/zf-np/download/zf-np-6.4.1.tgz#9015f941d0fdbe943108cf0deb0ad1d84d71108e"
   integrity sha1-kBX5QdD9vpQxCM8N6wrR2E1xEI4=
