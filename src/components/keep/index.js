@@ -9,23 +9,28 @@ import React, {
 
 const Context = createContext();
 
-export function AliveScope(props) {
+export const AliveScope = (props) => {
     const [state, setState] = useState({});
     const ref = useMemo(() => {
         return {};
     }, []);
+
     const keep = useMemo(() => {
         return (id, children) =>
             new Promise((resolve) => {
-                setState({
-                    [id]: { id, children },
-                });
+                setState((pre) => ({
+                    ...pre,
+                    [id]: {
+                        id, children
+                    }
+                }));
                 setTimeout(() => {
                     //需要等待setState渲染完拿到实例返回给子组件。
                     resolve(ref[id]);
                 });
             });
     }, [ref]);
+
     return (
         <Context.Provider value={keep}>
             {props.children}
@@ -43,7 +48,7 @@ export function AliveScope(props) {
     );
 }
 
-function KeepAlive(props) {
+const KeepAlive = (props) => {
     const keep = useContext(Context);
     useEffect(() => {
         const init = async ({ id, children }) => {
