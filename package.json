@@ -136,7 +136,9 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.160",
-    "lodash": "^4.17.20"
+    "@types/react-router-dom": "^5.1.5",
+    "lodash": "^4.17.20",
+    "react-router-dom": "^5.2.0"
   },
   "peerDependencies": {
     "react": "^16.13.1",

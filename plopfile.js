@@ -16,7 +16,7 @@ module.exports = function(plop) {
         actions: [
             {
                 type: "add",
-                path: "src/components/{{name}}/index.js",
+                path: "src/components/{{name}}/keep.tsx",
                 templateFile: "plop-template/componentIndex.hbs",
             },
             {
