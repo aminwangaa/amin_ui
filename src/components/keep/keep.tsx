@@ -48,16 +48,18 @@ export function AliveScope(props: AliveScopeProps) {
     return (
         <Context.Provider value={keep}>
             {props.children}
-            {Object.values(state).map(({ id, children }): React.ReactNode => (
-                <div
-                    key={id}
-                    ref={(node) => {
-                        ref[id] = node;
-                    }}
-                >
-                    {children}
-                </div>
-            ))}
+            <div>
+                {Object.values(state).map(({ id, children }): React.ReactNode => (
+                    <div
+                        key={id}
+                        ref={(node) => {
+                            ref[id] = node;
+                        }}
+                    >
+                        {children}
+                    </div>
+                ))}
+            </div>
         </Context.Provider>
     );
 }
